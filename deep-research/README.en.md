@@ -61,7 +61,7 @@
 
 ```bash
 # Generic Agent Skills layout (one dir + SKILL.md with frontmatter) - not tied to any single agent
-git clone https://github.com/0xn0ne/skills.git
+git clone https://github.com/daybreak-kits/skills.git
 cp -r skills/deep-research/ <your agent's skills dir>/
 
 # Common locations

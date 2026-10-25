@@ -2,7 +2,7 @@
 
 > 以读者为中心，把零散材料设计成一份能读懂、能信服、能照做的正式工作文档。方法论 = **一个核心（以读者为中心）+ 三大支柱（结构清晰·内容精准·表达简洁）+ 六项准则（清晰·简洁·准确·完整·一致·礼貌）**，覆盖报告、方案、SOW、制度、汇报、复盘七类文体。
 
-[![version v5.0.0](https://img.shields.io/badge/version-v5.0.0-blue)](./SKILL.md) [![skill: office-docx-design](https://img.shields.io/badge/skill-office--docx--design-purple)](./SKILL.md) [![license: Apache--2.0](https://img.shields.io/badge/license-Apache--2.0-green)](../LICENSE) [![repo: 0xn0ne/skills](https://img.shields.io/badge/repo-0xn0ne%2Fskills-lightgrey)](https://github.com/0xn0ne/skills)
+[![version v5.0.0](https://img.shields.io/badge/version-v5.0.0-blue)](./SKILL.md) [![skill: office-docx-design](https://img.shields.io/badge/skill-office--docx--design-purple)](./SKILL.md) [![license: Apache--2.0](https://img.shields.io/badge/license-Apache--2.0-green)](../LICENSE) [![repo: daybreak-kits/skills](https://img.shields.io/badge/repo-daybreak-kits%2Fskills-lightgrey)](https://github.com/daybreak-kits/skills)
 
 ---
 
@@ -41,7 +41,7 @@
 本 skill 遵循通用的 **Agent Skills 规范**（一个目录 + 一份带 frontmatter 的 `SKILL.md`），不绑定任何特定 agent。把目录放进你所用工具的 skills 目录即可：
 
 ```bash
-git clone https://github.com/0xn0ne/skills.git
+git clone https://github.com/daybreak-kits/skills.git
 cp -r skills/office-docx-design/ <你的 agent 的 skills 目录>/
 ```
 
@@ -171,6 +171,6 @@ cp -r skills/office-docx-design/ <你的 agent 的 skills 目录>/
 
 ## 许可证
 
-本项目采用 [Apache License 2.0](../LICENSE)。仓库：[0xn0ne/skills](https://github.com/0xn0ne/skills)。
+本项目采用 [Apache License 2.0](../LICENSE)。仓库：[daybreak-kits/skills](https://github.com/daybreak-kits/skills)。
 
 *Last updated: 2026-09-23*

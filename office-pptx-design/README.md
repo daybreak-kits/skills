@@ -2,7 +2,7 @@
 
 > 为汇报、总结、述职、培训、方案演示等正式工作场景**想清楚、查清楚、写清楚**一整套 PPT：受众与目标澄清 → 多渠道调研与事实交叉核查 → 结论式大纲 → 逐页内容与视觉意图 → 讲稿，再交由 ppt-master 生成原生 PPTX 并做交付前自检。
 
-[![skill: office-pptx-design](https://img.shields.io/badge/skill-office--pptx--design-purple)](./SKILL.md) [![spec: Agent Skills](https://img.shields.io/badge/spec-Agent%20Skills-blue)](https://docs.claude.com/en/docs/agents-and-tools/agent-skills) [![license: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-green)](../LICENSE) [![repo: 0xn0ne/skills](https://img.shields.io/badge/repo-0xn0ne%2Fskills-blue)](https://github.com/0xn0ne/skills)
+[![skill: office-pptx-design](https://img.shields.io/badge/skill-office--pptx--design-purple)](./SKILL.md) [![spec: Agent Skills](https://img.shields.io/badge/spec-Agent%20Skills-blue)](https://docs.claude.com/en/docs/agents-and-tools/agent-skills) [![license: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-green)](../LICENSE) [![repo: daybreak-kits/skills](https://img.shields.io/badge/repo-daybreak-kits%2Fskills-blue)](https://github.com/daybreak-kits/skills)
 
 ## 目录
 
@@ -43,7 +43,7 @@
 本 skill 遵循通用的 **Agent Skills 规范**（一个目录 + 一份带 frontmatter 的 `SKILL.md`），不绑定任何特定 agent。把目录放进你所用工具的 skills 目录即可：
 
 ```bash
-git clone https://github.com/0xn0ne/skills.git
+git clone https://github.com/daybreak-kits/skills.git
 cp -r skills/office-pptx-design/ <你的 agent 的 skills 目录>/
 ```
 
@@ -177,6 +177,6 @@ office-pptx-design/
 
 ## 许可证
 
-[Apache-2.0](../LICENSE) © 0xn0ne/skills
+[Apache-2.0](../LICENSE) © daybreak-kits/skills
 
 *Last updated: 2026-09-23*

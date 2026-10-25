@@ -4,7 +4,7 @@
 >
 > 核心四句话：**先理解后实施 · 单一事实源 · 复用有门槛 · 外科手术式修改**。
 
-[![skill: coding](https://img.shields.io/badge/skill-coding-purple)](./SKILL.md) [![license: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-green)](../LICENSE) [![返回主目录](https://img.shields.io/badge/repo-0xn0ne%2Fskills-lightgrey)](https://github.com/0xn0ne/skills)
+[![skill: coding](https://img.shields.io/badge/skill-coding-purple)](./SKILL.md) [![license: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-green)](../LICENSE) [![返回主目录](https://img.shields.io/badge/repo-daybreak-kits%2Fskills-lightgrey)](https://github.com/daybreak-kits/skills)
 
 ---
 
@@ -42,7 +42,7 @@
 本 skill 遵循通用的 **Agent Skills 规范**（一个目录 + 一份带 frontmatter 的 `SKILL.md`），不绑定任何特定 agent。把目录放进你所用工具的 skills 目录即可：
 
 ```bash
-git clone https://github.com/0xn0ne/skills.git
+git clone https://github.com/daybreak-kits/skills.git
 cp -r skills/coding/ <你的 agent 的 skills 目录>/
 ```
 
@@ -172,6 +172,6 @@ coding/
 
 ## 许可证
 
-本项目基于 [Apache License 2.0](../LICENSE) 发布。欢迎到 [0xn0ne/skills](https://github.com/0xn0ne/skills) 提 Issue 或 PR。
+本项目基于 [Apache License 2.0](../LICENSE) 发布。欢迎到 [daybreak-kits/skills](https://github.com/daybreak-kits/skills) 提 Issue 或 PR。
 
 *Last updated: 2026-09-09*

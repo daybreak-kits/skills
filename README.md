@@ -2,7 +2,7 @@
 
 > 一组遵循通用 **Agent Skills 规范**的 AI agent 技能集：每个 skill 是一个目录 + 一份带 frontmatter 的 `SKILL.md`，覆盖编码、代码审计、CLI 接口设计、深度调研、正式文档写作、工作 PPT 创作与 README 写作。不绑定任何特定 agent——Claude Code、OpenCode、Cursor、Codex 或任何支持该规范的工具都能加载。
 
-[![license: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-green)](./LICENSE) [![spec: Agent Skills](https://img.shields.io/badge/spec-Agent%20Skills-blue)](https://docs.claude.com/en/docs/agents-and-tools/agent-skills) [![repo: 0xn0ne/skills](https://img.shields.io/badge/repo-0xn0ne%2Fskills-blue)](https://github.com/0xn0ne/skills)
+[![license: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-green)](./LICENSE) [![spec: Agent Skills](https://img.shields.io/badge/spec-Agent%20Skills-blue)](https://docs.claude.com/en/docs/agents-and-tools/agent-skills) [![repo: daybreak-kits/skills](https://img.shields.io/badge/repo-daybreak-kits%2Fskills-blue)](https://github.com/daybreak-kits/skills)
 
 ---
 
@@ -29,7 +29,7 @@
 SKILL 遵循通用的 Agent Skills 规范（一个目录 + 一份带 frontmatter 的 `SKILL.md`）。把想要的 skill 目录复制进你所用工具的 skills 目录即可：
 
 ```bash
-git clone https://github.com/0xn0ne/skills.git
+git clone https://github.com/daybreak-kits/skills.git
 cp -r skills/<skill-name>/ <你的 agent 的 skills 目录>/
 ```
 

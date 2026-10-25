@@ -3,7 +3,7 @@
 > 把"帮我 review 一下"变成**可定位、可追溯、可判定是否阻塞发布**的审计报告。7 个审计维度 + P0/P1/P2 严重度分级 + 7 条不可协商红线，每条结论必须落到 `文件:行号`，没有证据的评价不进报告。
 > 给需要判断"这次改动能不能合"的人用：开发者、Reviewer、Tech Lead。
 
-[![skill: code-audit](https://img.shields.io/badge/skill-code--audit-purple)](./SKILL.md) [![license: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-green)](../LICENSE) [![repo: 0xn0ne/skills](https://img.shields.io/badge/repo-0xn0ne%2Fskills-blue)](https://github.com/0xn0ne/skills) [![back to skills](https://img.shields.io/badge/back%20to-skills-lightgrey)](../..)
+[![skill: code-audit](https://img.shields.io/badge/skill-code--audit-purple)](./SKILL.md) [![license: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-green)](../LICENSE) [![repo: daybreak-kits/skills](https://img.shields.io/badge/repo-daybreak-kits%2Fskills-blue)](https://github.com/daybreak-kits/skills) [![back to skills](https://img.shields.io/badge/back%20to-skills-lightgrey)](../..)
 
 - [这是什么 / 给谁用](#这是什么--给谁用)
 - [核心能力](#核心能力)
@@ -48,7 +48,7 @@
 本 skill 遵循通用的 **Agent Skills 规范**（一个目录 + 一份带 frontmatter 的 `SKILL.md`），不绑定任何特定 agent。把目录放进你所用工具的 skills 目录即可：
 
 ```bash
-git clone https://github.com/0xn0ne/skills.git
+git clone https://github.com/daybreak-kits/skills.git
 cp -r skills/code-audit/ <你的 agent 的 skills 目录>/
 ```
 

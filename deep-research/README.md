@@ -61,7 +61,7 @@
 
 ```bash
 # 通用 Agent Skills 布局(一个目录 + 一份带 frontmatter 的 SKILL.md),不绑定任何特定 agent
-git clone https://github.com/0xn0ne/skills.git
+git clone https://github.com/daybreak-kits/skills.git
 cp -r skills/deep-research/ <你的 agent 的 skills 目录>/
 
 # 常见位置

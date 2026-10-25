@@ -3,7 +3,7 @@
 > 把「帮我写个 README」变成一份**能上手、可验证、不编造**的仓库首页。核心立场：README 是**仓库首页，不是文档全书**——读者要能在首屏判断「这是不是我要的」，然后以最低摩擦跑通一次真实成功。
 > 给谁用：开源库 / CLI / Web / 服务端项目的开发者、内部仓库负责人，以及代写文档的 AI Agent。
 
-[![skill: readme-writer](https://img.shields.io/badge/skill-readme--writer-purple)](./SKILL.md) [![license: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-green)](../LICENSE) [![repo: 0xn0ne/skills](https://img.shields.io/badge/repo-0xn0ne%2Fskills-blue)](https://github.com/0xn0ne/skills)
+[![skill: readme-writer](https://img.shields.io/badge/skill-readme--writer-purple)](./SKILL.md) [![license: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-green)](../LICENSE) [![repo: daybreak-kits/skills](https://img.shields.io/badge/repo-daybreak-kits%2Fskills-blue)](https://github.com/daybreak-kits/skills)
 
 ## 这是什么 / 给谁用
 
@@ -36,7 +36,7 @@
 本 skill 遵循通用的 **Agent Skills 规范**（一个目录 + 一份带 frontmatter 的 `SKILL.md`），不绑定任何特定 agent。把目录放进你所用工具的 skills 目录即可：
 
 ```bash
-git clone https://github.com/0xn0ne/skills.git
+git clone https://github.com/daybreak-kits/skills.git
 cp -r skills/readme-writer/ <你的 agent 的 skills 目录>/
 ```
 
