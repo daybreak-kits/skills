@@ -1,6 +1,7 @@
 ---
 name: readme-writer
-description: 为软件仓库撰写或改写 README.md，生成结构清晰、可上手、符合开源社区最佳实践的自述文件。适用于新建 README、优化现有文档、或根据项目类型（开源库、CLI 工具、Web 应用、内部仓库等）定制内容。当用户提出"写 README"、"完善项目文档"、"帮我做个 README"、"这个仓库缺文档"等需求时触发。
+description: Use when 为用户与贡献者写仓库 README.md：项目定位、安装、上手、用法、配置、贡献指南、目录与徽章。面向人类读者。不用于写给 agent 的说明（AGENTS.md／CLAUDE.md／SKILL.md 用 writing-for-agents）。
+
 ---
 
 # readme-writer
@@ -201,18 +202,7 @@ RED LINES:
 
 ---
 
-## 6. 必须遵守 vs 自主判断
-
-### 必须遵守
-
-- 红线层全部条款  
-- DONE_WHEN 检查清单  
-- 不编造事实；敏感信息占位  
-- 核心问题（what / why / how to start / help / license-contrib）有着落  
-- Quick Start 可验证  
-- 中文或英文与用户/项目主导语言一致（用户指定优先）
-
-### 以下由你自主判断
+## 6. 自主判断（其余按第 1 节的红线与 DONE_WHEN 执行）
 
 - 是否需要 TOC、Features 用表还是列表、Demo 用 GIF 还是静态图  
 - Installation 与 Quick Start 合并还是拆分  

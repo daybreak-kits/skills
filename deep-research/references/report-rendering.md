@@ -32,7 +32,7 @@
 
 ### 4 视角(red team 领域型范畴)
 
-章节 4 的"4 视角"指:**技术 / 商业 / 监管 / 行为** 四个领域范畴,domain-based 而非 functional。Steel-man 协议与假设追踪规范见 `references/hypothesis-redteam.md`,本 reference 不重复。
+章节 4 的"4 视角"指:**技术 / 商业 / 监管 / 行为** 四个领域范畴,domain-based 而非 functional。Steel-man 协议与假设追踪规范见同目录的 `hypothesis-redteam.md`,本 reference 不重复。
 
 ## 6 lens 章节权重表
 

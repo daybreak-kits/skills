@@ -33,4 +33,4 @@
 - **v8.1.0**（2026-07-15）：argparse 重构 + 认知标签 CLI 化（claim / claims-dump / suggest-label）。
 - **v8.0.0**（2026-07-14）：基于 12-问题审计全面重写，从 `research` 改名为 `deep-research`。
 
-完整 R1-R17 回归历史见 `tests/regression-log.md`。
+完整回归历史见 git 提交记录（`git log --oneline -- deep-research/`）。

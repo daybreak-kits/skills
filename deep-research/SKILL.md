@@ -1,7 +1,7 @@
 ---
 name: deep-research
-description: |
-  决策级深度调研技能。产出可直接决策的研究报告：证据锚定、反方经过红队检验、结论先行。当用户提出研究、调研、对比、选型、评估、投资分析、战略分析、尽调、市场/竞品/技术趋势等开放性问题时使用本技能——即使用户没有明说"深度研究"，只要答案需要多来源综合、需要发现反方或边界条件、或错误答案有实际代价，就应触发。不适用：单点事实查询（直接web_search）、改写/翻译/总结用户已给文本、纯创意写作。
+description: Use when 需要决策级深度调研：多来源综合、对比选型、方案评估、竞品／市场／技术趋势、尽调、投资分析，且错误答案有实际代价——产出结论先行、证据锚定、经反方检验的报告。不适用：单点事实查询（用 research 或直接搜索）；抓平台原始内容（用 agent-reach）；改写、翻译或总结用户已给出的文本。
+
 ---
 
 # Deep Research
@@ -49,7 +49,7 @@ description: |
 
 ### 4.1 Frame：任务卡（第一动作，唯一权威模板）
 
-**第一件事**：确认工作目录。用 `pwd` 看当前目录，然后在该目录的 `research/` 子目录下存放所有产出物（报告写入 `research/`，脚本会把 ledger 写入 `research/.cache/`）。**不要 cd 到其他目录后再运行工具**——`research_tools.py` 基于 CWD 定位文件，cd 后 ledger 和报告会分离，`inline` 注入会失败。Frame 阶段用 `suggest-path --mkdir <topic>` 一次性创建目录并确认路径。
+**第一件事**：确认工作目录。用 `pwd` 看当前目录，然后在该目录的 `research/` 子目录下存放所有产出物（报告写入 `research/`，脚本会把 ledger 写入 `research/.cache/`）。任务卡指定了别的输出路径时按任务卡写，并在报告里注明路径差异。**不要 cd 到其他目录后再运行工具**——`research_tools.py` 基于 CWD 定位文件，cd 后 ledger 和报告会分离，`inline` 注入会失败。Frame 阶段用 `suggest-path --mkdir <topic>` 一次性创建目录并确认路径。
 
 ```markdown
 ## 任务卡
@@ -109,7 +109,7 @@ Sum ≥ 1 = 有推进；Sum = 0 → 下一 probe 必须 pivot；连续 2 轮 Sum
 - 用户明确要求的额外内容（代码/时间线/方案...）：位置和形态由你定（自主区），
   质量优先于结构合规。用户没要求就严格 5 章。
 - 章节权重表、受众适配、写作技法见 `references/report-rendering.md`。
-- 输出位置：默认 conversation；写文件时用 `suggest-path` 取规范路径（`research/` 下，别处不写）。
+- 输出位置：默认写 `research/<slug>.md`（用 `suggest-path` 取规范路径）；用户明确要求只回在对话里时，才不落文件。别处不写。
 
 ## 5. 条件启用模块
 
@@ -135,6 +135,9 @@ Sum ≥ 1 = 有推进；Sum = 0 → 下一 probe 必须 pivot；连续 2 轮 Sum
 | 标签拿不准 | `suggest-label --sources S1,S2` |
 | 假设状态变化 | `hyp 有效/修正/无效/待定 高/中/低 <触发证据> [S#] [原因]` |
 | 检查是否该停 | `check-stop --effort L1/L2/L3` |
+| 找 ledger | `list`（列 `research/.cache/` 下的全部 topic） |
+| 建目录/确认路径 | `suggest-path --mkdir <topic>` |
+| 上下文恢复 | `summary`（从 ledger 重建当前进度，会话中断后先用它） |
 | **Decide 阶段**·每个章节锚点 | `finding "<结论句>" --claims C1,C2,C3` |
 | 写报告前 | `claims-dump`（按 4 档分组 + findings 映射，可直接拼入报告）+ `audit` |
 | 最终决定 | `decide YES/NO/DEFER [建议] [边界]` |
